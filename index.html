@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alapot Dental Clinic</title>
+
+    <!-- bootstrap cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./style.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="./img/Logo2_DentalClinic.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <!-- header section starts  -->
+    <header class="header" style="height: 90px;">
+        <a href="#" class="logo"> <img src="./img/LogoText.ico" style="object-fit: cover; width: 150px; height: 100px;"
+                alt="AlapotLogo">
+        </a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#services">services</a>
+            <!-- <a href="#catalog">catalog</a> -->
+            <a href="#dentist">dentist</a>
+            <a href="#contactus">contact us</a>
+            <a href="#blogs">blog</a>
+        </nav>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <a href="https://web.facebook.com/AlapotDC">
+                <div id="social" class="fab fa-facebook-f"></div>
+            </a>
+            <a href="https://www.instagram.com/alapotdentalclinic/">
+                <div id="social" class="fab fa-instagram"></div>
+            </a>
+            <!-- <div id="social" class="fab fa-twitter"></div> -->
+        </div>
+    </header>
+    <!-- header section ends  -->
+
+    <!-- home section starts  -->
+    <section class="home" id="home">
+
+        <div class="content" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <span>A Beautiful Smile shows a Beautiful Life.</span>
+            <h3 class="mt-3">let us brighten your smile</h3>
+            <p>
+                Keep smiling, because life is a beautiful thing and there's so much to smile about.
+                Nothing shakes the smiling heart.</p>
+        </div>
+
+        <div class="image" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <img src="./img/Female-dentist-curing-boy-in-chair-on-transparent-background-PNG.png" alt=""
+                class="home-img">
+            <!-- <img src="./img/Cloud-in-sky-vector-PNG.png" alt="" class="home-parallax-img"> -->
+        </div>
+
+    </section>
+    <!-- home section ends  -->
+
+    <section class="about" id="about">
+
+        <div class="image" data-aos="fade-up" data-aos-duration="3000">
+            <img src="./img/Aboutus.svg" alt="">
+        </div>
+
+        <div class="content" data-aos="zoom-in-left">
+            <span>why choose us?</span>
+            <h3 class="title">what's make our services goods!</h3>
+            <p>At Alapot Dental Clinic, we strive to provide exceptional dental care and prioritize your oral health
+                needs.
+                When you choose us, you benefit from our team of highly qualified and experienced dental professionals.
+                Dr. Ivee, our lead dentist, has over 15 years of experience in general and cosmetic dentistry. With a
+                strong focus on continuing education, Dr. Ivee stays updated with the latest advancements in the field,
+                ensuring that you receive the most effective and innovative treatments available.</p>
+            <a href="#" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" class="btn"
+                data-bs-toggle="modal" data-bs-target="#staticBackdrop">read more</a>
+            <div class="icons-container">
+                <div class="icons" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <img src="./img/badge.png" alt="">
+                    <h3>best quality</h3>
+                </div>
+                <div class="icons" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <img src="./img/customer-service.png" alt="">
+                    <h3>24/7 support</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Modal for about -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <!-- <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1> -->
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="paragraph">Our practice offers a comprehensive range of services to address all aspects of
+                        your oral health.
+                        Whether you require routine check-ups and cleanings, dental fillings, teeth whitening,
+                        orthodontic treatment, or even complex procedures like dental implants or smile makeovers, we
+                        have the expertise to meet your needs. Our dedicated team takes the time to understand your
+                        concerns and goals, creating personalized treatment plans that align with your unique
+                        requirements.</p>
+                    <p class="paragraph">
+                        In our commitment to providing the highest quality care, we invest in state-of-the-art dental
+                        technology. Our office is equipped with advanced digital X-ray systems, intraoral cameras, and
+                        3D imaging, allowing for more accurate diagnoses and treatment planning. We also utilize the
+                        latest techniques and materials, ensuring that your dental procedures are minimally invasive,
+                        efficient, and comfortable.
+                    </p>
+                    <p class="paragraph">
+                        At Alapot Dental Clinic, we prioritize your comfort and strive to create a welcoming and
+                        relaxing
+                        environment. Our friendly staff members are dedicated to providing compassionate care and are
+                        always available to address any questions or concerns you may have. We understand that dental
+                        visits can be daunting for some individuals, and we take extra measures to ensure your
+                        experience is as pleasant as possible.
+                    </p>
+                    <p class="paragraph">
+                        But don't just take our word for it. We are proud of the positive feedback we receive from our
+                        satisfied patients. Many have praised our professionalism, gentle approach, and outstanding
+                        results. Their testimonials serve as a testament to our commitment to excellence and patient
+                        satisfaction.
+                    </p>
+                    <p class="paragraph">
+                        In conclusion, when you choose Alapot Dental Clinic, you are choosing a practice that combines
+                        expertise, comprehensive services, advanced technology, patient-centered care, and a track
+                        record of happy patients. We are dedicated to helping you achieve and maintain optimal oral
+                        health while providing a positive and comfortable dental experience.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- menu services starts  -->
+    <section class="menu" id="services">
+
+        <div class="heading" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <span>our services</span>
+        </div>
+
+        <div class="box-container mt-5">
+
+            <a href="#" class="box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <img src="./img/teeth1.png" alt="">
+                <div class="content">
+                    <h3>Alignment Specialist</h3>
+                    <!-- <div class="price">Php 30.00</div> -->
+                </div>
+            </a>
+
+            <a href="#" class="box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <img src="./img/teeth2.png" alt="">
+                <div class="content">
+                    <h3>Cosmetic Dentistry</h3>
+                    <!-- <div class="price">Php 5.00</div> -->
+                </div>
+            </a>
+
+            <a href="#" class="box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <img src="./img/teeth3.png" alt="">
+                <div class="content">
+                    <h3>Oral Hygiene Experts</h3>
+                    <!-- <div class="price">Php 5.00</div> -->
+                </div>
+            </a>
+
+            <a href="#" class="box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <img src="./img/teeth4.png" alt="">
+                <div class="content">
+                    <h3>Root Canal Specialist</h3>
+                    <!-- <div class="price">Php 50.00</div> -->
+                </div>
+            </a>
+
+            <a href="#" class="box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <img src="./img/teeth5.png" alt="">
+                <div class="content">
+                    <h3>Dental Advisory</h3>
+                    <!-- <div class="price">Php 5.00</div> -->
+                </div>
+            </a>
+
+            <a href="#" class="box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <img src="./img/teeth6.png" alt="">
+                <div class="content">
+                    <h3>Cavity Inspection</h3>
+                    <!-- <div class="price">Php 20.00</div> -->
+                </div>
+            </a>
+
+        </div>
+        <a href="#" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" class="btn"
+            data-bs-toggle="modal" data-bs-target="#servicesCatalog">read more</a>
+
+    </section>
+    <!-- menu section ends -->
+    <!-- Modal -->
+    <div class="modal fade" id="servicesCatalog" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="servicesCatalogLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable ">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="servicesCatalogLabel">
+                        <h3>Catalog Services</h3>
+                    </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="box">
+                        <div class="d-flex justify-content-center align-items-center justify-content-between">
+                            <div>
+                                <h4>
+                                    CONSULTATION FEE
+                                </h4>
+                            </div>
+                            <div>
+                                <h4>Php300.00</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Periodontics -->
+                    <hr>
+                    <div class="box">
+                        <div class="">
+                            <div>
+                                <h2>
+                                    PERIODONTICS
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="">
+                            <div>
+                                <h4>
+                                    Oral Prophylaxis
+                                </h4>
+                            </div>
+                            <div class="box">
+                                <div class="d-flex justify-content-center align-items-center justify-content-between">
+                                    <div>
+                                        <h5>
+                                            Light
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h5>Php800.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="d-flex justify-content-center align-items-center justify-content-between">
+                                    <div>
+                                        <h5>
+                                            Moderate
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h5>Php1,300.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="d-flex justify-content-center align-items-center justify-content-between">
+                                    <div>
+                                        <h5>
+                                            Heavy
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h5>Php1,500.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="d-flex justify-content-center align-items-center justify-content-between">
+                                    <div>
+                                        <h5>
+                                            Fluoride Application with OP
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h5>Php2,000.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- Oral surgery -->
+                    <div class="box">
+                        <div class="">
+                            <div>
+                                <h2>
+                                    ORAL SURGERY
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="">
+                            <div class="box">
+                                <div class="d-flex justify-content-center align-items-center justify-content-between">
+                                    <div>
+                                        <h5>
+                                            Simple Extraction
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h5>Php600.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="d-flex justify-content-center align-items-center justify-content-between">
+                                    <div>
+                                        <h5>
+                                            Multiple Extraction
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h5>Php500.00/tooth</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="d-flex justify-content-center align-items-center justify-content-between">
+                                    <div>
+                                        <h5>
+                                            Odontectomy
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h5>Php9,000.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="d-flex justify-content-center align-items-center justify-content-between">
+                                    <div>
+                                        <h5>
+                                            Gingivectomy, Gingivoplasty
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h5>Php5,000.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="d-flex justify-content-center align-items-center justify-content-between">
+                                    <div>
+                                        <h5>
+                                            Alveolectomy, Alveoplasty
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h5>Php6,000.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="d-flex justify-content-center align-items-center justify-content-between">
+                                    <div>
+                                        <h5>
+                                            Apicoectomy
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h5>Php7,000.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="d-flex justify-content-center align-items-center justify-content-between">
+                                    <div>
+                                        <h5>
+                                            Operculectomy
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h5>Php3,000.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- RESTORATIVE/COSMETIC DENTISTRY  -->
+                    <div class="box">
+                        <div class="">
+                            <div>
+                                <h2>
+                                    RESTORATIVE/COSMETIC DENTISTRY
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="">
+                            <div class="box">
+                                <div class="d-flex justify-content-center align-items-center justify-content-between">
+                                    <div>
+                                        <h5>
+                                            Composite Filling
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h5>Php800.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="d-flex justify-content-center align-items-center justify-content-between">
+                                    <div>
+                                        <h5>
+                                            Succeeding Surface
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h5>Php700.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="d-flex justify-content-center align-items-center justify-content-between">
+                                    <div>
+                                        <h5>
+                                            Pit and Fissure Sealant
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h5>Php1,000.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="d-flex justify-content-center align-items-center justify-content-between">
+                                    <div>
+                                        <h5>
+                                            Bleaching (Full mouth)
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h5>Php10,000.00
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="">
+                                    <div>
+                                        <h5>
+                                            Veneer
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="d-flex justify-content-center align-items-center justify-content-between">
+                                    <div>
+                                        <h5>
+                                            • Direct (Composite)
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h5>Php3,000.00
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="d-flex justify-content-center align-items-center justify-content-between">
+                                    <div>
+                                        <h5>
+                                            • Indirect
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h5>Php10,000.00
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- ENDODONTICS  -->
+                    <div class="box">
+                        <div class="">
+                            <div>
+                                <h2>
+                                    ENDODONTICS 
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="">
+                            <div class="box">
+                                <div class="d-flex justify-content-center align-items-center justify-content-between">
+                                    <div>
+                                        <h5>
+                                            Pulp Capping
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h5>Php2,500.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="d-flex justify-content-center align-items-center justify-content-between">
+                                    <div>
+                                        <h5>
+                                            Root Canal Therapy
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h5>Php7,000.00/canal</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <!-- PROSTHODONTICS  -->
+                    <div class="box">
+                        <div class="">
+                            <div>
+                                <h2>
+                                    PROSTHODONTICS 
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="">
+                            <div class="box">
+                                <div class="d-flex justify-content-center align-items-center justify-content-between">
+                                    <div>
+                                        <h5>
+                                            Jacket Crown and Bridge
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <!-- <h5>Php2,500.00</h5> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="d-flex justify-content-center align-items-center justify-content-between">
+                                    <div>
+                                        <h5>
+                                            Plastic
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h5>Php3,000.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="">
+                            <div class="box">
+                                <div class="d-flex justify-content-center align-items-center justify-content-between">
+                                    <div>
+                                        <h5>
+                                            Canal
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h5>Php5,000.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="d-flex justify-content-center align-items-center justify-content-between">
+                                    <div>
+                                        <h5>
+                                            Porcelain CERAMC 
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h5>Php7,000.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="">
+                            <div class="box">
+                                <div class="d-flex justify-content-center align-items-center justify-content-between">
+                                    <div>
+                                        <h5>
+                                            P Tilite
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h5>Php15,000.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="d-flex justify-content-center align-items-center justify-content-between">
+                                    <div>
+                                        <h5>
+                                            E-max...
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h5>Php20,000.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="">
+                            <div class="box">
+                                <div class="d-flex justify-content-center align-items-center justify-content-between">
+                                    <div>
+                                        <h5>
+                                            Zirconia
+                                        </h5>
+                                    </div>
+                                    <div>
+                                        <h5>Php3,000.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- dentist section starts  -->
+    <section class="popular" id="dentist">
+
+        <div class="heading" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <span class="mt-5">Doctor</span>
+            <h3>our dentist</h3>
+        </div>
+
+        <div class="box-container mt-3" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+
+            <div class="owl-carousel owl-theme four-carousel">
+                <div class="item">
+                    <div class="card">
+                        <img src="./img/doc1.png" style="object-fit: cover; height: 185px;" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img src="./img/doc2.png" style="object-fit: cover; height: 185px;" alt="">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img src="./img/doc3.png" style="object-fit: cover; height: 185px;" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- dentist section ends -->
+
+    <section class="order" id="contactus">
+
+        <div class="heading" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <span class="mt-5">Contact Us</span>
+            <h3>our details</h3>
+        </div>
+
+        <div class="icons-container mt-5">
+
+            <div class="icons" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                <img src="./img/goals.png" alt="">
+                <h3>7:00am to 05:00pm</h3>
+            </div>
+
+            <div class="icons" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                <img src="./img/phone-call.png" alt="">
+                <h3>0933 866 7992</h3>
+                <h3>+639189055640 (SMART)</h3>
+                <h3>+639338667</h3>
+            </div>
+
+            <div class="icons" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                <img src="./img/map.png" alt="">
+                <h3>2F Nixem Building, Alexander St. Poblacion, Urdaneta, Philippines</h3>
+            </div>
+            <div class="icons" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+                <iframe class="map" style="width:100%; height: 150px;"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3835.7195220538542!2d120.56646431744386!3d15.976017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33913fb207189f87%3A0xb30e928b867b3b53!2sAlapot%20Dental%20Clinic!5e0!3m2!1sen!2sph!4v1684295685786!5m2!1sen!2sph"
+                    allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- dentist section starts  -->
+    <section class="popular" id="blogs">
+
+        <div class="heading" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <span class="mt-5">Portfolio</span>
+            <h3>Video</h3>
+        </div>
+
+        <div class="box-container2 mt-5" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <video src="./video/video1.mp4" class="slider" autoplay loop muted controls></video>
+            <ul>
+                <li onclick="videoslider('./video/video1.mp4')"><video src="./video/video1.mp4"></video></li>
+                <li onclick="videoslider('./video/video2.mp4')"><video src="./video/video2.mp4"></video></li>
+                <li onclick="videoslider('./video/video3.mp4')"><video src="./video/video3.mp4"></video></li>
+                <li onclick="videoslider('./video/video4.mp4')"><video src="./video/video4.mp4"></video></li>
+            </ul>
+        </div>
+
+
+        <div class="box-container " data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+
+            <div class="box-container1">
+                <div class="gallery">
+                    <span style="--i: 1"><img src="./portfolio/imgteeth/portfolio1.jpg" alt=""></span>
+                    <span style="--i: 2"><img src="./portfolio/imgteeth/portfolio2.jpg" alt=""></span>
+                    <span style="--i: 3"><img src="./portfolio/imgteeth/portfolio3.jpg" alt=""></span>
+                    <span style="--i: 4"><img src="./portfolio/imgteeth/portfolio4.jpg" alt=""></span>
+                    <span style="--i: 5"><img src="./portfolio/imgteeth/portfolio5.jpg" alt=""></span>
+                    <span style="--i: 6"><img src="./portfolio/imgteeth/portfolio2.jpg" alt=""></span>
+                    <span style="--i: 7"><img src="./portfolio/imgteeth/portfolio1.jpg" alt=""></span>
+                    <span style="--i: 8"><img src="./portfolio/imgteeth/portfolio4.jpg" alt=""></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="box-container" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="box-container1">
+                <div class="gallery">
+                    <span style="--i: 1"><img src="./portfolio/imgclient/portfolio10.jpg" alt=""></span>
+                    <span style="--i: 2"><img src="./portfolio/imgclient/portfolio11.jpg" alt=""></span>
+                    <span style="--i: 3"><img src="./portfolio/imgclient/portfolio12.jpg" alt=""></span>
+                    <span style="--i: 4"><img src="./portfolio/imgclient/portfolio13.jpg" alt=""></span>
+                    <span style="--i: 5"><img src="./portfolio/imgclient/portfolio14.jpg" alt=""></span>
+                    <span style="--i: 6"><img src="./portfolio/imgclient/portfolio15.jpg" alt=""></span>
+                    <span style="--i: 7"><img src="./portfolio/imgclient/portfolio16.jpg" alt=""></span>
+                    <span style="--i: 8"><img src="./portfolio/imgclient/portfolio9.jpg" alt=""></span>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <!-- dentist section ends -->
+
+
+
+    <!-- footer section starts  -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>our services</h3>
+                <a href="#services"><i class="fas fa-arrow-right"></i> Alignment Specialist</a>
+                <a href="#services"><i class="fas fa-arrow-right"></i> Cosmetic Dentistry</a>
+                <a href="#services"><i class="fas fa-arrow-right"></i> Oral Hygiene Experts</a>
+                <a href="#services"><i class="fas fa-arrow-right"></i> Root Canal Specialist</a>
+                <a href="#services"><i class="fas fa-arrow-right"></i> Dental Advisory</a>
+                <a href="#services"><i class="fas fa-arrow-right"></i> Cavity Inspection</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home"> <i class="fas fa-arrow-right"></i> home</a>
+                <a href="#about"> <i class="fas fa-arrow-right"></i> about</a>
+                <a href="#services"> <i class="fas fa-arrow-right"></i> services</a>
+                <!-- <a href="#catalog"> <i class="fas fa-arrow-right"></i> catalog</a> -->
+                <a href="#dentist"> <i class="fas fa-arrow-right"></i> dentist</a>
+                <a href="#contactus"> <i class="fas fa-arrow-right"></i> contact us</a>
+                <a href="#blogs"> <i class="fas fa-arrow-right"></i>blogs</a>
+            </div>
+
+            <!-- <div class="box">
+                <h3>extra links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> my order</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> my account</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> my favorite</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> terms of use</a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> privary policy</a>
+            </div> -->
+
+            <div class="box">
+                <h3>opening hours</h3>
+                <p>monday : 7:00am to 10:00pm</p>
+                <p>tuesday : 7:00am to 10:00pm</p>
+                <p>wednesday : 7:00am to 10:00pm</p>
+                <p>friday : 7:00am to 10:00pm</p>
+                <p>saturday and sunday closed</p>
+            </div>
+
+        </div>
+
+        <div class="bottom">
+
+
+            <div class="credit"> created <span>alapotdentalclinic.com</span> | all rights reserved! </div>
+
+        </div>
+
+    </section>
+    <!-- footer section ends -->
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/64622c1374285f0ec46b8a4e/1h0fnobdg';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/carousel.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/toggle.js"></script>
+    <script src="./js/video.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
